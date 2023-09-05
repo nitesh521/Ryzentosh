@@ -1,9 +1,9 @@
 DefinitionBlock ("", "SSDT", 1, "AMD", "GPU", 0x00000000)
 {
-    External (_SB_.XXXX.XXXX, DeviceObj)    // Edit this value  
+    External (_SB_.PCI0.GPP8, DeviceObj)    // Edit this value  
     External (EGPS, IntObj)    
 
-    Scope (_SB_.XXXX.XXXX) // Edit this value
+    Scope (_SB_.PCI0.GPP8) // Edit this value
     {
         Device (GFX0)
         {
